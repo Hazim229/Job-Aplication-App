@@ -36,7 +36,6 @@
                     <p><strong>Salary:</strong> {{ $job->salary ?? '-' }}</p>
                     <p><strong>Experience:</strong> {{ $job->experience ?? '-' }}</p>
                     <p><strong>Employment Type:</strong> {{ $job->employment_type ?? '-' }}</p>
-                    <p><strong>Deadline:</strong> {{ $job->deadline }}</p>
                     <p><strong>Description:</strong> {{ $job->description }}</p>
                     <a href="{{ route('jobs.show', $job->id) }}" class="btn btn-info btn-sm mt-auto">View Details</a>
                     <p class="text-end text-muted mt-2" style="font-size: 0.8rem;">

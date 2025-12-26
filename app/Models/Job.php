@@ -14,7 +14,6 @@ class Job extends Model
         'job_title',
         'location',
         'description',
-        'deadline',
         'salary',
         'experience',
         'employment_type',
